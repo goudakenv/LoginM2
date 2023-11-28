@@ -10,6 +10,78 @@
 <head>
 <meta charset="UTF-8">
 <title>プロフィール</title>
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .post-container {
+            margin-top: 20px;
+        }
+
+        .post {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            margin: 5px 0;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+
+        .logout-form {
+            margin-top: 20px;
+        }
+
+        .logout-form input[type="submit"] {
+            background-color: #d9534f;
+        }
+
+        .logout-form input[type="submit"]:hover {
+            background-color: #c9302c;
+        }
+    </style>
 </head>
 <body>
 	<h1>プロフィール</h1>
